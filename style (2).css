@@ -1,0 +1,214 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #f3e9dc; 
+  margin-bottom: 100px;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #2d1b11;
+  font-family: "Rockwell", serif;
+  font-weight: bold;
+  text-align: center;
+  font-weight: 700;
+  font-size: 7vw;
+  z-index: 1;
+  margin-top: 16vw;
+}
+
+h2{
+  text-align: center;
+  font-family: "Franklin Gothic Medium";
+  font-size: 3vw;
+  color: #5e3023;
+}
+
+h3{
+  text-align:center;
+  font-family: "Franklin Gothic Medium";
+  font-size: 2vw;
+  color: #895737;
+}
+
+p{
+  font-family: "Gadugi";
+  font-size: 1.5vw;
+  color: #2d1b11;
+  text-align: center;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+a{
+  color: #915c34;
+}
+
+iframe{
+  border: 15px solid #b39185;
+  width: 27vw;
+  height: 15vw;
+  margin-left: 3vw;
+}
+
+button{
+  background-color: #d7c0b3;
+  border: 8px solid #716152;
+  font-size: 2vw;
+  margin-left: 3em;
+  font-family: "Tahoma";
+  text-decoration-thickness: 0px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 20px;
+  align-items: center;
+  justify-content:center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+ .resourceButtons:link {
+  text-decoration: none;
+}
+
+.resourceButtons:visited {
+  text-decoration: none;
+}
+
+.resourceButtons:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #bcaa99;
+}
+
+.resourceButtons:active {
+  text-decoration: none;
+}
+
+.firstPics{
+  position: absolute;
+  width: 100vw;
+  max-height: 54vw;
+  opacity: 0.4;
+  z-index: -10;
+  top: 4.4vw;
+  padding-right: 0px;
+  margin-right: 0px;
+  border-bottom: 70px solid #4b301d;
+  border-bottom-opacity: 1;
+}
+
+ul{
+  list-style-type: none;
+  background-color: #63462e;
+  overflow: hidden;
+  padding: 1.5em;
+  text-align: center;
+  /*   width: 100%; */
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25vw;
+  padding: 25px;
+  display: inline;
+  font-family: "Consolas", monospace;
+}
+
+li a:hover {
+  background-color: #9c7055;
+}
+
+.beginning{
+  height: 550px;
+}
+
+.space{
+  height: 100px;
+}
+
+.faqSpace{
+  height: 700px;
+}
+
+#how{
+  font-size: 3.5vw;
+}
+
+#break{
+  font-family: "Javanese Text";
+  font-weight: bold;
+  color: brown;
+}
+
+.pink{
+  color: #E467B1;
+  font-size: 5vw;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.light{
+  color: #EA0E8F;
+}
+
+#citations{
+  background-color: #B29587;
+  border-top: 2vw solid #5C4C44;
+  border-bottom: 2vw solid #5C4C44;
+}
+
+#sourcesH3{
+  font-size: 2vw;
+  color: white;
+  font-family: "Rockwell";
+}
+
+.sourcesP{
+  color: white;
+  font-size: 1em;
+}
+
+.resourceshtml{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 0%;
+}
+
+
+#factButton {
+  text-align:center;
+}
+
